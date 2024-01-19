@@ -105,19 +105,19 @@ a {
     border-radius: 50%;
     box-shadow: 20px 0px 20px 0px black;
     transition: 0.7s ease;
+    margin-bottom: 15px;
 }
 
 .header img:hover {
     box-shadow: inset 1px 0px 20px 20px lightblue;
     cursor: progress;
+    transform: scale(1.2);
 }
 
 .header #ball:hover {
     box-shadow: inset 1px 0px 20px 20px rgb(255, 255, 80);
-    margin-top: 20px;
 }
 .header #cloud:hover {
-    margin-top: 20px;
     box-shadow: inset 1px 0px 20px 20px lightblue;
 }
 
