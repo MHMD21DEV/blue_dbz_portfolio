@@ -7,7 +7,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Saiyan-Sans';
+    font-family: 'Saiyan-Sans', sans-serif;
     letter-spacing: 1px;
 }
 
@@ -19,10 +19,16 @@
 
 span {
     color: #ffff00;
+    box-shadow: inset 1px 0px 20px 20px rgb(255, 80, 80);
+    border-radius: 50%;
 }
 
 span:hover {
-    color: #ff2e2e;
+    color: #fbbc42;
+}
+
+#life {
+    box-shadow: none;
 }
 
 abbr {
@@ -36,7 +42,15 @@ abbr {
     background-attachment: fixed;
     min-height: 100vh;
     color: #fff;
-    text-shadow: 0px 0px 10px black;
+    text-shadow: 20px 0px 15px black;
+}
+
+.one h1, h3 {
+    font-weight: 400;
+}
+
+.one h1 p {
+    text-shadow: 20px 0px 15px black;
 }
 
 .navbar {
@@ -71,6 +85,14 @@ a {
     color: #23b9ff;
 }
 
+.more-info a {
+    color: #ff5a5a;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.7em;
+    text-decoration: underline wavy #ff5a5a;
+}
+
 .header {
    padding: 100px;
    margin: 0 auto;
@@ -81,21 +103,26 @@ a {
 .header img {
     max-width: 200px;
     border-radius: 50%;
-    box-shadow: -20px 0px 20px 0px black;
+    box-shadow: 20px 0px 20px 0px black;
     transition: 0.7s ease;
 }
 
-img:hover {
+.header img:hover {
     box-shadow: inset 1px 0px 20px 20px lightblue;
     cursor: progress;
 }
 
-#ball:hover {
+.header #ball:hover {
     box-shadow: inset 1px 0px 20px 20px rgb(255, 255, 80);
     margin-top: 20px;
 }
-#cloud:hover {
-    margin-top: 10px;
+.header #cloud:hover {
+    margin-top: 20px;
+    box-shadow: inset 1px 0px 20px 20px lightblue;
+}
+
+.header #cloud {
+    box-shadow: 5px 20px 20px 0px black;
 }
 
 .header p {
@@ -104,7 +131,7 @@ img:hover {
     text-align: center;
     word-spacing: -5px;
     border-radius: 50%;
-    box-shadow: -20px 0px 20px 0px black;
+    box-shadow: 20px 0px 20px 0px black;
     transition: 0.7s ease;
 }
 
@@ -117,14 +144,14 @@ img:hover {
 .mid-btn {
     background-color: #23b9ff;
     color: #fff;
-    padding: 10px 30px;
+    padding: 20px 30px;
     border-radius: 15px;
-    font-size: 1.7rem;
+    font-size: 0.555em;
     display: inline-block;
     transition: 0.7s ease;
     text-shadow: none;
     margin-top: 50px;
-    box-shadow: -20px 0px 20px 0px black;
+    box-shadow: 20px 0px 20px 0px black;
 }
 
 .mid-btn:hover {
@@ -136,6 +163,7 @@ h2 {
     display: flex;
     justify-content: center;
     font-size: 2em;
+    font-weight: 400;
     margin-bottom: 50px;
     transition: 0.7s ease;
     box-shadow: 0px -20px 20px 0px lightblue;
@@ -166,7 +194,7 @@ h2:hover {
     text-align: center;
     margin: 10px 0;
     font-size: 1.7em;
-    text-shadow: 5px -5px 1px black;
+    font-weight: 400;
 }
 
 .card {
@@ -197,7 +225,7 @@ h2:hover {
 
 .three .card:hover {
     box-shadow: 0px 20px 20px 0px #ff5a5a;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .three h2 {
@@ -214,6 +242,11 @@ h2:hover {
     border-style: none;
 }
 
+.three img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
 .fore {
     padding: 100px;
     background-color: #f5f5f5;
@@ -221,7 +254,7 @@ h2:hover {
 }
 
 .fore p {
-    font-size: 0.5em;
+    font-size: 0.9em;
 }
 
 .fore .card {
@@ -236,5 +269,5 @@ footer {
     color: #fff;
     padding: 20px;
     font-size: 2em;
-    text-shadow: 0px 0px 10px black;
+    text-shadow: 20px 0px 15px black;
 }
