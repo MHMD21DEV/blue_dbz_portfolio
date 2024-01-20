@@ -206,7 +206,6 @@ h2:hover {
     border-radius: 15px;
     padding: 15px;
     margin: 15px;
-    overflow: hidden;
     transition: 0.7s ease;
 }
 
