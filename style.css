@@ -44,6 +44,7 @@ abbr {
     min-height: 100vh;
     color: #fff;
     text-shadow: 20px 0px 15px black;
+    text-align: center;
 }
 
 .one h1,
@@ -305,7 +306,7 @@ footer {
         padding: 20px 20px;
         margin-bottom: 5px;
         margin-top: 35px;
-        font-size: large;
+        font-size: 30px;
     }
 
     .container #cloud {
@@ -315,6 +316,10 @@ footer {
 
     .header #ball {
         margin-top: 30px;
+    }
+
+    .three {
+        padding: 50px;
     }
 }
 
@@ -336,7 +341,7 @@ footer {
 
 @media (max-width: 390px) {
     .one {
-        font-size: 0.485em;
+        font-size: 0.4em;
     }
 
     .header {
@@ -351,5 +356,19 @@ footer {
 
     .header {
         padding: 25px;
+    }
+}
+
+@media (max-width: 280px) {
+    .one {
+        font-size: 0.2em;
+    }
+
+    .header {
+        font-size: 5em;
+    }
+
+    .mid-btn {
+        font-size: 20px;
     }
 }
