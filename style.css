@@ -276,6 +276,12 @@ footer {
     text-shadow: 20px 0px 15px black;
 }
 
+@media (width: 1024px) {
+    .header .container {
+        padding: 30px;
+    }
+}
+
 @media (max-width: 1025px) {
     .one {
         display: flex;
@@ -291,6 +297,7 @@ footer {
 
     .header {
         display: block;
+        padding: 30px;
     }
 
     .header img {
@@ -360,15 +367,58 @@ footer {
 }
 
 @media (max-width: 280px) {
+    .navbar {
+        font-size: 15px;
+    }
+
     .one {
         font-size: 0.2em;
     }
 
     .header {
         font-size: 5em;
+        padding: 15px;
+    }
+
+    .header .container {
+        font-size: 1.2em;
     }
 
     .mid-btn {
         font-size: 20px;
+    }
+
+    .two {
+        padding: 25px;
+    }
+
+    .three {
+        padding: 25px;
+    }
+}
+
+@media (width: 667px) {
+    .one {
+        font-size: 0.3em;
+    }
+
+    .header {
+        padding: 30px;
+    }
+}
+
+@media (width: 653px) {
+    .one {
+        font-size: 0.4em;
+    }
+
+    .header {
+        padding: 50px;
+    }
+}
+
+@media (width: 640px) {
+    .one {
+        font-size: 0.4em;
     }
 }
