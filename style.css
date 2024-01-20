@@ -127,6 +127,7 @@ a {
 
 .header #cloud {
     box-shadow: 5px 20px 20px 0px black;
+    margin-top: 30px;
 }
 
 .header p {
@@ -148,14 +149,15 @@ a {
 .mid-btn {
     background-color: #23b9ff;
     color: #fff;
-    padding: 20px 30px;
+    padding: 18px 20px;
     border-radius: 15px;
-    font-size: 0.555em;
+    font-size: 1em;
     display: inline-block;
     transition: 0.7s ease;
     text-shadow: none;
     margin-top: 50px;
     box-shadow: 20px 0px 20px 0px black;
+    word-spacing: -5px;
 }
 
 .mid-btn:hover {
@@ -276,13 +278,24 @@ footer {
     text-shadow: 20px 0px 15px black;
 }
 
+@media (width: 1280px) {
+    .header {
+        font-size: 2.2em;
+    }
+
+    .mid-btn {
+        word-spacing: -5px;
+        font-size: 0.6em;
+    }
+}
+
 @media (width: 1024px) {
     .header .container {
         padding: 30px;
     }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
     .one {
         display: flex;
         justify-content: center;
@@ -313,16 +326,17 @@ footer {
         padding: 20px 20px;
         margin-bottom: 5px;
         margin-top: 35px;
-        font-size: 30px;
+        font-size: 1.875em;
     }
 
     .container #cloud {
         display: flex;
         justify-content: center;
+        margin-top: 15px;
     }
 
     .header #ball {
-        margin-top: 30px;
+        margin: 15px 0;
     }
 
     .three {
@@ -352,7 +366,7 @@ footer {
     }
 
     .header {
-        padding: 50px;
+        padding: 40px;
     }
 }
 
@@ -386,6 +400,10 @@ footer {
 
     .mid-btn {
         font-size: 20px;
+    }
+
+    .container #cloud {
+        margin-top: auto;
     }
 
     .two {
