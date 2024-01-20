@@ -1,6 +1,6 @@
 @font-face {
     font-family: Saiyan-Sans;
-    src: url(fonts/Saiyan-Sans\ Left\ Oblique.ttf) format('truetype'); 
+    src: url(fonts/Saiyan-Sans\ Left\ Oblique.ttf) format('truetype');
 }
 
 * {
@@ -46,7 +46,8 @@ abbr {
     text-shadow: 20px 0px 15px black;
 }
 
-.one h1, h3 {
+.one h1,
+h3 {
     font-weight: 400;
 }
 
@@ -95,10 +96,10 @@ a {
 }
 
 .header {
-   padding: 100px;
-   margin: 0 auto;
-   font-size: 3em;
-   display: flex;
+    padding: 100px;
+    margin: 0 auto;
+    font-size: 3em;
+    display: flex;
 }
 
 .header img {
@@ -118,6 +119,7 @@ a {
 .header #ball:hover {
     box-shadow: inset 1px 0px 20px 20px rgb(255, 255, 80);
 }
+
 .header #cloud:hover {
     box-shadow: inset 1px 0px 20px 20px lightblue;
 }
@@ -302,6 +304,7 @@ footer {
     .mid-btn {
         padding: 20px 20px;
         margin-bottom: 5px;
+        margin-top: 35px;
     }
 
     .container #cloud {
@@ -311,5 +314,41 @@ footer {
 
     .header #ball {
         margin-top: 30px;
+    }
+}
+
+@media (max-width: 540px) {
+    .one {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 430px) {
+    .one {
+        font-size: 0.485em;
+    }
+
+    .header {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 390px) {
+    .one {
+        font-size: 0.485em;
+    }
+
+    .header {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 360px) {
+    .one {
+        font-size: 0.4em;
+    }
+
+    .header {
+        padding: 25px;
     }
 }
