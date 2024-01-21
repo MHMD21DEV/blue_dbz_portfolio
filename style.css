@@ -45,6 +45,7 @@ abbr {
     color: #fff;
     text-shadow: 20px 0px 15px black;
     text-align: center;
+    transition: 0.7s ease;
 }
 
 .one h1,
@@ -338,10 +339,6 @@ footer {
 
     .header #ball {
         margin: 15px 0;
-    }
-
-    .three {
-        padding: 50px;
     }
 
     footer {
