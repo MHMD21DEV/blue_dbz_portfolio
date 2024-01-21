@@ -88,14 +88,6 @@ a {
     color: #23b9ff;
 }
 
-.more-info a {
-    color: #ff5a5a;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 0.7em;
-    text-decoration: underline wavy #ff5a5a;
-}
-
 .header {
     padding: 100px;
     margin: 0 auto;
@@ -251,6 +243,15 @@ h2:hover {
 .three img {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
+}
+
+.more-info a {
+    color: #ff5a5a;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8em;
+    text-decoration: underline wavy #ff5a5a;
+    margin-top: 10px;
 }
 
 .fore {
