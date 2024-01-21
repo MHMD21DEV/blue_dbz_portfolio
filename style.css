@@ -342,6 +342,10 @@ footer {
     .three {
         padding: 50px;
     }
+
+    footer {
+        text-align: center;
+    }
 }
 
 @media (max-width: 540px) {
